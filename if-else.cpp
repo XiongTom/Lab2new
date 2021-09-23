@@ -25,7 +25,7 @@ void findifelse(int level){
 	    cout<<"if else :"<<sum1<<endl;
     }else if(level==4){
      	cout<<"if else : "<<sum1<<endl;
-    	cout<<"if else if else : "<<sum2<<endl;
+    	cout<<"if else if else : "<<sum2<<endl;"if"
 }
 }
 
