@@ -14,8 +14,8 @@ int main()
 	int level;
 	cout<<"please enter the level:"<<endl;
 	cin>>level;       //get the level
-	ifstream file;    //open the file
-    file.open(file_name);	
+	ifstream file;    
+    file.open(file_name);	//open the file
     string line;
     if(!file){
     	cout<<"wrong"<<endl;
@@ -23,7 +23,7 @@ int main()
 		while(getline(file,line)){
 			getl.push_back(line);     //line by line, the contents of the file are stored in the getL (Vector) memory
 		}
-		file.close();
+		file.close();                  //close the file
 	}
 	 //the main function:
 	 clear();
