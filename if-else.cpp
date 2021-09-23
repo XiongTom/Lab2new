@@ -21,7 +21,7 @@ void findifelse(int level){
 			stk.push(1);
 		}
 	}
-	if(level==3){
+	if(level==3){                       //different level output different thing
 	    cout<<"if else :"<<sum1<<endl;
     }else if(level==4){
      	cout<<"if else : "<<sum1<<endl;
