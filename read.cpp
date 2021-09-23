@@ -7,25 +7,25 @@
 using namespace std;
 int main()
 {
-	//从文件中读取每一行并且存入vector中 
+	//read each line from the file and store it in the vector
 	cout<<"please enter the file name:"<<endl;           
 	string file_name;                                    
-	cin>>file_name;
+	cin>>file_name;    //get the file name
 	int level;
 	cout<<"please enter the level:"<<endl;
-	cin>>level;
-	ifstream file; 
+	cin>>level;       //get the level
+	ifstream file;    //open the file
     file.open(file_name);	
     string line;
     if(!file){
     	cout<<"wrong"<<endl;
 	}else{
 		while(getline(file,line)){
-			getl.push_back(line);
+			getl.push_back(line);     //line by line, the contents of the file are stored in the getL (Vector) memory
 		}
 		file.close();
 	}
-	//处理符号和备注
+	 //the main function:
 	 clear();
 	  countwords();
 	  findswitchcase();
