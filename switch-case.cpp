@@ -20,7 +20,7 @@ void findswitchcase(){
 	}
 	cout<<"switch num:"<<s<<endl;         
 	cout<<"case num:";
-	for(int i=0;i<=f;i++){
+	for(int i=0;i<=f;i++){                //output the num of case in each switch 
 		cout<<" "<<c[i];
 		cout<<endl;
 	}
